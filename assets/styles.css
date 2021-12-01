@@ -252,7 +252,9 @@ section .title::before {
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
+.projects .proj-content a {
+    color: white;
+}
 
 
 /* educaiton section */
