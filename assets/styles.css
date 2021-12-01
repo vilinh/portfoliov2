@@ -127,7 +127,7 @@
 section {
     padding: 100px 0;
 }
-.about, .projects, .education {
+.about, .projects, .education, .contact, footer {
     font-family: Montseratt, sans-serif;
 }
 section .title {
@@ -152,7 +152,8 @@ section .title::before {
 
 .about .about-content,
 .projects .proj-content,
-.education .edu-content {
+.education .edu-content,
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
@@ -281,6 +282,103 @@ section .title::before {
 }
 
 
+
+/* contact section */
+.contact {
+    background:rgb(69, 67, 75);
+    color: white;
+}
+.contact .title::before {
+    background: white;
+}
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+.contact .contact-content .left p {
+    text-align: justify;
+}
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+.contact .contact-content .row i {
+    font-size: 25px;
+    color:#afa5b6;
+} 
+.contact .contact-content .row .info .head {
+    font-weight: 600;
+}
+.contact .contact-content .row .info .sub-title {
+    color:rgb(252, 244, 255);
+}
+.contact .right form .name {
+    margin-right: 10px;
+}
+.contact .right form .email {
+    margin-left: 10px;
+}
+.contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .fields {
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea textarea, 
+.contact .right form .field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 0 15px;
+    outline: none;
+    font-size: 17px;
+    font-family: Montseratt, sans-serif;
+}
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button {
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #afa5b6;
+    background:#afa5b6;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+.contact .right form .button button:hover {
+    background: none;
+    color: #afa5b6;
+}
+
+
 /* media query */
 @media (max-width: 1300px) {
     .home .max-width {
@@ -360,7 +458,29 @@ section .title::before {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    .contact .contact-content .column,
+    .education .edu-content .column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
+
+
+/* footer section */
+footer {
+    background: #afa5b6;
+    padding: 20px 23px;
+    color: white;
+}
+footer span a {
+    color: rgb(69, 67, 75);
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+
+
 
 @media (max-width: 690px) {
     .max-width{
@@ -375,9 +495,10 @@ section .title::before {
     .home .home-content a{
         font-size: 20px;
     }
+    .education .edu-content .column,
     .projects .proj-content .card {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 }
 
