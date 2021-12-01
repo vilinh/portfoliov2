@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 .max-width {
@@ -122,11 +123,11 @@
     background: none;
 }
 
-/* about section */
+/* similar content styling */
 section {
     padding: 100px 0;
 }
-.about, .services {
+.about, .projects {
     font-family: Montseratt, sans-serif;
 }
 section .title {
@@ -148,6 +149,9 @@ section .title::before {
     background:#030303;
     transform: translateX(-50%);
 }
+
+/* about section */
+
 /* .about .title::after {
     content: 'who i am';
     position: absolute;
@@ -160,7 +164,8 @@ section .title::before {
     transform: translateX(-50%);
 } */
 
-.about .about-content {
+.about .about-content,
+.projects .proj-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
@@ -207,9 +212,44 @@ section .title::before {
 }
 
 
-/* services section */
-.services {
-    
+/* projects section */
+.projects {
+    background: rgb(69, 67, 75);
+    color: white;
+}
+.projects .title::before{
+    background: white;
+}
+.projects .proj-content .card {
+    width: calc(33% - 20px);
+    background: rgb(84, 82, 92);
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+}
+.projects .proj-content .card:hover {
+    background:#afa5b6;
+    cursor: pointer;
+}
+.projects .proj-content .card:hover i{
+    color: white;
+    font-size: 50px;
+    transition: color 0.3s ease;
+}
+.projects .proj-content .card .box {
+    transition: all 0.3s ease;
+}
+.projects .proj-content .card:hover .box {
+    transform: scale(1.05);
+}
+.projects .proj-content .card i {
+    font-size: 50px;
+    color: #afa5b6;
+}
+.projects .proj-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 
@@ -288,6 +328,10 @@ section .title::before {
     .about .about-content .right {
         flex: 100%;
     }
+    .projects .proj-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -302,6 +346,10 @@ section .title::before {
     }
     .home .home-content a{
         font-size: 20px;
+    }
+    .projects .proj-content .card {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
