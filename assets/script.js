@@ -7,6 +7,22 @@ $(document).ready(function() {
         }
     })
 
+    // typing animation
+    var typed = new Typed(".typing", {
+        strings: ["Student", "Developer", "Engineer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+
+    var typed = new Typed(".typing-2", {
+        strings: ["code", "design", "draw", "eat", "travel", "learn"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+
+
     // toggle menu/navbar script
     $(`.menu-btn`).click(function() {
         $(`.navbar .menu`).toggleClass("active");
