@@ -127,7 +127,7 @@
 section {
     padding: 100px 0;
 }
-.about, .projects {
+.about, .projects, .education {
     font-family: Montseratt, sans-serif;
 }
 section .title {
@@ -150,6 +150,15 @@ section .title::before {
     transform: translateX(-50%);
 }
 
+.about .about-content,
+.projects .proj-content,
+.education .edu-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+}
+
 /* about section */
 
 /* .about .title::after {
@@ -163,14 +172,6 @@ section .title::before {
     background: white;
     transform: translateX(-50%);
 } */
-
-.about .about-content,
-.projects .proj-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-    justify-content: space-between;
-}
 .about .about-content .left {
     width: 45%;
 }
@@ -250,6 +251,31 @@ section .title::before {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+
+
+/* educaiton section */
+.education .edu-content .column {
+    width: calc(50% - 30px);
+}
+.education .edu-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.education .edu-content .right .courses ul {
+    list-style: circle;
+}
+.education .edu-content .right .courses li {
+    padding-bottom: 2px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.education .edu-content .right .courses .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 
