@@ -18,8 +18,9 @@
     width: 100%;
     padding: 30px 0;
     z-index: 999;
-    font-family: Open Sans, sans-serif;
+    font-family: Poppins, sans-serif;
     transition: all 0.3s ease;
+    text-transform: uppercase;
   }
   
   .navbar.sticky {
@@ -35,7 +36,7 @@
   
   .navbar .logo a {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 300;
     color: white;
   }
   
@@ -57,7 +58,7 @@
       display: block;
       color: #fff;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 300;
       letter-spacing: 1px;
       margin-left: 25px;
       transition: color 0.3s ease;
@@ -82,7 +83,7 @@
     height: 100vh;
     color: white;
     min-height: 500px;
-    font-family: Montserrat, sans-serif;
+    font-family: Poppins, sans-serif;
   }
   
   .home .max-width {
@@ -129,26 +130,17 @@
       padding: 100px 0;
   }
   .about, .projects, .education, .contact, footer {
-      font-family: Montseratt, sans-serif;
+      font-family: Poppins, sans-serif;
   }
   section .title {
       position: relative;
       text-align: center;
       font-size: 40px;
-      font-weight: 500;
+      font-weight: 200;
       margin-bottom: 60px;
       padding-bottom: 20px;
-      font-family: Montserrat, sans-serif;
-  }
-  section .title::before {
-      content: '';
-      position: absolute;
-      bottom: 0px;
-      left: 50%;
-      width: 180px;
-      height: 3px;
-      background:#030303;
-      transform: translateX(-50%);
+      font-family: Poppins, sans-serif;
+      text-transform: uppercase;
   }
   
   .about .about-content,
@@ -224,8 +216,9 @@
       background: rgb(69, 67, 75);
       color: white;
   }
-  .projects .title::before{
-      background: white;
+  .projects .proj-content {
+      display: flex;
+      gap: 15px;
   }
   .projects .proj-content .card {
       width: calc(33% - 20px);
@@ -233,7 +226,10 @@
       text-align: center;
       border-radius: 6px;
       padding: 20px 25px;
-      height: 300px;
+      margin-top: 20px;
+      flex: 1;
+  }
+  .projects .proj-content .card .tools {
       margin-top: 20px;
   }
   .projects .proj-content .card:hover {
@@ -258,7 +254,7 @@
   .projects .proj-content .card .text {
       font-size: 25px;
       font-weight: 500;
-      margin: 10px 0 7px 0;
+      margin: 10px 0 15px 0;
   }
   .projects .proj-content a {
       color: white;
@@ -363,7 +359,7 @@
       padding: 0 15px;
       outline: none;
       font-size: 17px;
-      font-family: Montseratt, sans-serif;
+      font-family: Poppins, sans-serif;
   }
   .contact .right form .textarea textarea {
       padding-top: 10px;
