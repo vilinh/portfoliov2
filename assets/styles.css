@@ -542,7 +542,7 @@
         transform: translateX(0);
     }
 }
-.slideanim-up {
+/* .slideanim-up {
     transform: translateY(500px);
 }
 .scrolled-up {
@@ -559,6 +559,6 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
 

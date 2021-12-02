@@ -90,7 +90,7 @@ $(document).ready(function() {
         })
 
         scrollElementsUp.forEach((el) => {
-            if (elementInView(el, 100)) {
+            if (elementInView(el, 0)) {
                 displayScrollElementUp(el);
             } 
         })
