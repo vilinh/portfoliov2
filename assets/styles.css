@@ -79,7 +79,7 @@
   /* home section */
   .home {
     display: flex;
-    background: rgb(69, 67, 75);
+    background: #23232b;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -164,6 +164,7 @@
       font-size: 25px;
       font-weight: 600;
       margin-bottom: 10px;
+      color: #23232b;
   }
   .about .about-content .right .text span {
       color: #afa5b6;
@@ -172,6 +173,7 @@
       text-align: justify;
       height: 100%;
       margin-bottom: 30px;
+      color: #23232b;
   }
   .about .about-content .right a:hover {
       color: #afa5b6;   
@@ -193,7 +195,7 @@
   
   /* projects section */
   .projects {
-      background: rgb(69, 67, 75);
+      background: #23232b;
       color: white;
   }
   .projects .proj-content {
@@ -203,7 +205,7 @@
   }
   .projects .proj-content .card {
       width: calc(33% - 20px);
-      background: rgb(84, 82, 92);
+      background: #4b4864;
       text-align: center;
       border-radius: 6px;
       padding: 20px 25px;
@@ -248,9 +250,9 @@
       background-color: #afa5b6;
       padding: 30px;
       border-radius: 6px;
-      border-right: solid 5px rgb(69, 67, 75);
-      border-bottom: solid 5px rgb(69, 67, 75);
-      color: rgb(69, 67, 75);
+      border-right: solid 5px #23232b;
+      border-bottom: solid 5px #23232b;
+      color: #23232b;
   }
   .education .edu-content .column:hover {
       background-color: #c1b6c9;
@@ -280,15 +282,15 @@
   }
 
   .education a {
-      color:rgb(69, 67, 75);
+      color:#23232b;
       font-size: 20px;
       text-align: center;
       padding: 15px 0px;
       background: #afa5b6;
       display: inline-block;
       border-radius: 6px;
-      border-right: 4px solid rgb(69, 67, 75);
-      border-bottom: 4px solid rgb(69, 67, 75);
+      border-right: 4px solid #23232b;
+      border-bottom: 4px solid #23232b;
       margin: auto;
       margin-top: 50px;
       width: 150px;
@@ -303,7 +305,7 @@
   
   /* contact section */
   .contact {
-      background:rgb(69, 67, 75);
+      background:#23232b;
       color: white;
   }
   .contact .contact-content .column {
