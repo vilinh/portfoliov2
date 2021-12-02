@@ -480,6 +480,9 @@
     .home .home-content .text-3 {
         font-size: 28px;
     }
+    .about .about-content .right .text {
+        font-size: 20px;
+    }
 }
   
   
@@ -554,6 +557,5 @@
         transform: translateY(0);
     }
 }
-
 
 
