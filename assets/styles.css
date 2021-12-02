@@ -388,17 +388,20 @@
       background: none;
       color: #afa5b6;
   }
+  .contact .right .text {
+      text-align: center;
+  }
   
   .contact .right .links ul {
-      list-style-type: disc;
-      padding-left: 40px;
+      list-style-type: none;
+      text-align: center;
   } 
   .contact .right .links a {
     color: white;
     font-weight: 100;   
     } 
     .contact .right .links li {
-        padding: 10px 0px;
+        padding: 9px 0px;
     } 
 
   
