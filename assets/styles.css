@@ -293,8 +293,28 @@
       margin-bottom: 10px;
       text-align: center;
   }
-  
-  
+
+  .education a {
+      color:rgb(69, 67, 75);
+      font-size: 20px;
+      text-align: center;
+      padding: 15px 0px;
+      background: #afa5b6;
+      display: inline-block;
+      border-radius: 6px;
+      border-right: 4px solid rgb(69, 67, 75);
+      border-bottom: 4px solid rgb(69, 67, 75);
+      margin: auto;
+      margin-top: 50px;
+      width: 150px;
+      display: block;
+      font-weight: 600;
+  }
+  .education a:hover {
+      background: #c2b8ca;
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+  }
   
   /* contact section */
   .contact {
@@ -333,60 +353,7 @@
   .contact .contact-content .row .info .sub-title {
       color:rgb(252, 244, 255);
   }
-  .contact .right form .name {
-      margin-right: 10px;
-  }
-  .contact .right form .email {
-      margin-left: 10px;
-  }
-  .contact .right form .textarea {
-      height: 80px;
-      width: 100%;
-  }
-  .contact .right form .fields {
-      display: flex;
-  }
-  .contact .right form .field,
-  .contact .right form .fields .field {
-      height: 45px;
-      width: 100%;
-      margin-bottom: 15px;
-  }
-  .contact .right form .textarea textarea, 
-  .contact .right form .field input {
-      height: 100%;
-      width: 100%;
-      border: 1px solid lightgrey;
-      border-radius: 6px;
-      padding: 0 15px;
-      outline: none;
-      font-size: 17px;
-      font-family: Poppins, sans-serif;
-  }
-  .contact .right form .textarea textarea {
-      padding-top: 10px;
-      resize: none;
-  }
-  .contact .right form .button {
-      height: 47px;
-      width: 170px;
-  }
-  .contact .right form .button button {
-      width: 100%;
-      height: 100%;
-      border: 2px solid #afa5b6;
-      background:#afa5b6;
-      color: white;
-      border-radius: 6px;
-      font-size: 15px;
-      font-weight: 200;
-      cursor: pointer;
-      transform: all 0.3s ease;
-  }
-  .contact .right form .button button:hover {
-      background: none;
-      color: #afa5b6;
-  }
+ 
   .contact .right .text {
       text-align: center;
   }
