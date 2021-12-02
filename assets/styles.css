@@ -263,6 +263,9 @@
       background-color: #afa5b6;
       padding: 30px;
       border-radius: 6px;
+      border-right: solid 5px rgb(69, 67, 75);
+      border-bottom: solid 5px rgb(69, 67, 75);
+      color: rgb(69, 67, 75);
   }
   .education .edu-content .column:hover {
       background-color: #c1b6c9;
