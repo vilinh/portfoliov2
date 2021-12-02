@@ -10,9 +10,9 @@ $(document).ready(function() {
         } else {
             $('.navbar').removeClass("sticky")
         }
-
         handleScrollAnimation();
     })
+
 
     // typing animation
     var typed = new Typed(".typing", {
