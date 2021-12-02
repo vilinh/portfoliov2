@@ -280,6 +280,10 @@
       margin-bottom: 10px;
       text-align: center;
   }
+  .education .edu-content .right p {
+      font-size: 12px;
+      margin-top: 5px;
+  }
 
   .education a {
       color:#23232b;
