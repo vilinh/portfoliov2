@@ -312,7 +312,7 @@
       width: calc(50% - 30px);
   }
   .contact .contact-content .left p {
-      text-align: justify;
+      text-align: left;
   }
   .contact .contact-content .text {
       font-size: 20px;
@@ -539,11 +539,10 @@
     }
 }
 .slideanim-up {
-    visibility: hidden;
+    transform: translateY(500px);
 }
-
 .scrolled-up {
-    visibility: visible;
+    transform: translateY(0px);
     animation: slide-in-up 1.3s;
 }
 

@@ -68,9 +68,7 @@ $(document).ready(function() {
 
 
     //set up element to hide
-    scrollElementsUp.forEach((el) => {
-        el.style.opacity = '0';
-    })
+
 
     //function to animate on scroll
     const handleScrollAnimation = () => {
@@ -94,9 +92,7 @@ $(document).ready(function() {
         scrollElementsUp.forEach((el) => {
             if (elementInView(el, 100)) {
                 displayScrollElementUp(el);
-            } else {
-                hideScrollElementUp(el);
-            }
+            } 
         })
     }
 })
