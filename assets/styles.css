@@ -194,23 +194,22 @@
   .about .about-content .right p {
       text-align: justify;
   }
-  .about .about-content .right a {
-      display: inline-block;
-      background: #afa5b6;
-      color: white;
-      font-size: 20px;
-      font-weight: 200;
-      padding: 10px 30px;
-      margin-top: 20px;
-      border-radius: 6px;
-      border: 2px solid #afa5b6;
-      transition: all 0.3s ease;
-  }
   .about .about-content .right a:hover {
       color: #afa5b6;
       background: none;    
   }
-  
+  .about .about-content .bot-socials {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10 px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+        gap: 20px;
+  }
+  .about .about-content .bot-socials svg:hover {
+      fill:#8b8291;
+  }
   
   /* projects section */
   .projects {
