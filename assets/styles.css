@@ -265,6 +265,12 @@
   /* educaiton section */
   .education .edu-content .column {
       width: calc(50% - 30px);
+      background-color: #afa5b6;
+      padding: 30px;
+      border-radius: 6px;
+  }
+  .education .edu-content .column:hover {
+      background-color: #c1b6c9;
   }
   .education .edu-content .left .text {
       font-size: 20px;
@@ -497,12 +503,12 @@
   }
   .scrolled-left {
       visibility: visible;
-      animation: slide-in-left 1s;
+      animation: slide-in-left 1.3s;
   }
   @keyframes slide-in-left {
     0% {
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-200px);
     }
     100% {
         opacity: 1;
@@ -515,13 +521,13 @@
 
 .scrolled-right {
     visibility: visible;
-    animation: slide-in-right 1s;
+    animation: slide-in-right 1.3s;
 }
 
 @keyframes slide-in-right {
     0% {
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(200px);
     }
     100% {
         opacity: 1;
