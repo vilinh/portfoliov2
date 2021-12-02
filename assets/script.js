@@ -66,6 +66,12 @@ $(document).ready(function() {
         element.classList.remove("scrolled-up");
     };
 
+
+    //set up element to hide
+    scrollElementsUp.forEach((el) => {
+        el.style.opacity = '0';
+    })
+
     //function to animate on scroll
     const handleScrollAnimation = () => {
         scrollElementsLeft.forEach((el) => {
