@@ -497,13 +497,11 @@
       background: #afa5b6;
       padding: 20px 23px;
       color: white;
+      text-align: center;
   }
   footer span a {
       color: rgb(69, 67, 75);
       text-decoration: none;
-  }
-  footer span a:hover {
-      text-decoration: underline;
   }
 
 
