@@ -491,9 +491,69 @@
   footer span a:hover {
       text-decoration: underline;
   }
-  
-  
-  
+
+
+
+  /* slide animations */
+  .slideanim-left {
+      visibility: hidden;
+  }
+  .scrolled-left {
+      visibility: visible;
+      animation: slide-in-left 1s;
+  }
+  @keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.slideanim-right {
+    visibility: hidden;
+}
+
+.scrolled-right {
+    visibility: visible;
+    animation: slide-in-right 1s;
+}
+
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.slideanim-up {
+    visibility: hidden;
+}
+
+.scrolled-up {
+    visibility: visible;
+    animation: slide-in-up 1.3s;
+}
+
+@keyframes slide-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
   @media (max-width: 690px) {
       .max-width{
           padding: 0 23px;
