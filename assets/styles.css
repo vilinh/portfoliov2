@@ -27,6 +27,9 @@
       padding: 15px 0;
       background: #cbc0d3;
   }
+  .navbar.sticky .menu li a:hover {
+      color: #23232b;
+  }
   
   .navbar .max-width {
     display: flex;
