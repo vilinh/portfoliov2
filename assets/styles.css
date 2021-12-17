@@ -25,7 +25,7 @@
   
   .navbar.sticky {
       padding: 15px 0;
-      background: #cbc0d3;
+      background: #EEB8AE;
   }
   .navbar.sticky .menu li a:hover {
       color: #23232b;
@@ -40,15 +40,15 @@
   .navbar .logo a {
     font-size: 25px;
     font-weight: 300;
-    color: white;
+    color: #FAE8B9;
   }
   
   .navbar .logo a span {
-      color: #cbc0d3;
+      color: #EEB8AE;
   }
   
   .navbar.sticky .logo a span {
-      color: white;
+      color: #FAE8B9;
       transition: all 0.3s ease;
   }
   
@@ -73,7 +73,7 @@
   
   /* menu button */
   .menu-btn {
-      color: white;
+      color: #FAE8B9;
       font-size: 23px;
       cursor: pointer;
       display: none;
@@ -82,9 +82,9 @@
   /* home section */
   .home {
     display: flex;
-    background: #23232b;
+    background: #19202F;
     height: 100vh;
-    color: white;
+    color: #FAE8B9;
     min-height: 500px;
     font-family: Poppins, sans-serif;
   }
@@ -110,7 +110,7 @@
   }
   
   .home .home-content .text-3 span {
-      color: #cbc0d3;
+      color: #EEB8AE;
       font-weight: 500;
   }
   
@@ -147,6 +147,10 @@
   }
   
   /* about section */
+  .about {
+      background-color: #1A202E;
+      color: #FAE8B9;
+  }
   .about .about-content .left {
       width: 45%;
   }
@@ -155,10 +159,10 @@
       width: 400px; 
       object-fit: cover; 
       border-radius: 6px; 
-      border-right: solid 10px #afa5b6;
-      border-bottom: solid 10px #afa5b6;
-      border-left: solid 10px rgb(117, 114, 128);
-      border-top: solid 10px rgb(117, 114, 128);
+      border-right: solid 10px #EEB8AE;
+      border-bottom: solid 10px #EEB8AE;
+      border-left: solid 10px #FAE8B9;
+      border-top: solid 10px #FAE8B9;
   }
   .about .about-content .right {
       width: 55%;
@@ -167,19 +171,17 @@
       font-size: 25px;
       font-weight: 600;
       margin-bottom: 10px;
-      color: #23232b;
   }
   .about .about-content .right .text span {
-      color: #afa5b6;
+      color: #EEB8AE;
   }
   .about .about-content .right p {
       text-align: justify;
       height: 100%;
       margin-bottom: 30px;
-      color: #23232b;
   }
   .about .about-content .right a:hover {
-      color: #afa5b6;   
+      color: #EEB8AE;   
   }
   .about .about-content .bot-socials {
         display: flex;
@@ -198,8 +200,8 @@
   
   /* projects section */
   .projects {
-      background: #23232b;
-      color: white;
+      background: #19202F;
+      color: #FAE8B9;
   }
   .projects .proj-content {
       display: flex;
@@ -207,8 +209,9 @@
       gap: 15px;
   }
   .projects .proj-content .card {
+      flex: 1;
       width: calc(33% - 20px);
-      background: #4b4864;
+      background: #2d3953;
       text-align: center;
       border-radius: 6px;
       padding: 20px 25px;
@@ -219,12 +222,7 @@
       margin-top: 20px;
   }
   .projects .proj-content .card:hover {
-      background:#afa5b6;
       cursor: pointer;
-  }
-  .projects .proj-content .card:hover i{
-      color: white;
-      font-size: 50px;
       transition: color 0.3s ease;
   }
   .projects .proj-content .card .box {
@@ -235,7 +233,7 @@
   }
   .projects .proj-content .card i {
       font-size: 50px;
-      color: #afa5b6;
+      color: #EEB8AE;
   }
   .projects .proj-content .card .text {
       font-size: 25px;
@@ -243,22 +241,23 @@
       margin: 10px 0 15px 0;
   }
   .projects .proj-content a {
-      color: white;
+      color: #FAE8B9;
   }
   
   
   /* educaiton section */
+  .education {
+      background-color: #1A202E;
+      color: #FAE8B9;
+  }
   .education .edu-content .column {
       width: calc(50% - 30px);
-      background-color: #afa5b6;
+      background-color: #2d3953;
       padding: 30px;
       border-radius: 6px;
       border-right: solid 5px #23232b;
       border-bottom: solid 5px #23232b;
-      color: #23232b;
-  }
-  .education .edu-content .column:hover {
-      background-color: #c1b6c9;
+      color: #FAE8B9;
   }
   .education .edu-content .left .text {
       font-size: 20px;
@@ -293,7 +292,7 @@
       font-size: 20px;
       text-align: center;
       padding: 15px 0px;
-      background: #afa5b6;
+      background: #2F3A51;
       display: inline-block;
       border-radius: 6px;
       border-right: 4px solid #23232b;
@@ -303,9 +302,9 @@
       width: 150px;
       display: block;
       font-weight: 600;
+      color: #FAE8B9;
   }
   .education a:hover {
-      background: #c2b8ca;
       transform: translateY(-5px);
       transition: all 0.3s ease;
   }
@@ -313,8 +312,8 @@
   /* contact section */
 
   .contact {
-      background:#23232b;
-      color: white;
+      background:#19202F;
+      color: #FAE8B9;
       padding: 50px 100px;
   }
   .contact .contact-content .column {
@@ -341,13 +340,13 @@
   }
   .contact .contact-content .row i {
       font-size: 25px;
-      color:#afa5b6;
+      color:#E6BAB0;
   } 
   .contact .contact-content .row .info .head {
       font-weight: 600;
   }
   .contact .contact-content .row .info .sub-title {
-      color:rgb(252, 244, 255);
+      color:#E6BAB0;
   }
  
   .contact .right .text {
@@ -359,7 +358,7 @@
       text-align: center;
   } 
   .contact .right .links a {
-    color: white;
+    color: #FAE8B9;
     font-weight: 100;   
     } 
     .contact .right .links li {
@@ -401,7 +400,7 @@
           width: 100%;
           right: -100%;
           top: 0;
-          background: #afa5b6;
+          background: #E6BAB0;
           text-align: center;
           padding-top: 80px;
           transition: all 0.3s ease;
@@ -497,13 +496,13 @@
   
   /* footer section */
   footer {
-      background: #afa5b6;
+      background: #E6BAB0;
       padding: 20px 23px;
-      color: white;
+      color: #FAE8B9;
       text-align: center;
   }
   footer span a {
-      color: rgb(69, 67, 75);
+      color: #EEB8AE;
       text-decoration: none;
   }
 
