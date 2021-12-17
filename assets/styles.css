@@ -25,7 +25,7 @@
   
   .navbar.sticky {
       padding: 15px 0;
-      background: #EEB8AE;
+      background: #D07591;
   }
   .navbar.sticky .menu li a:hover {
       color: #23232b;
@@ -68,7 +68,7 @@
   }
   
   .navbar .menu li a:hover {
-      color:#cbc0d3;
+      color:#D07591;
   }
   
   /* menu button */
@@ -400,7 +400,7 @@
           width: 100%;
           right: -100%;
           top: 0;
-          background: #E6BAB0;
+          background: #D07591;
           text-align: center;
           padding-top: 80px;
           transition: all 0.3s ease;
@@ -496,7 +496,7 @@
   
   /* footer section */
   footer {
-      background: #E6BAB0;
+      background: #D07591;
       padding: 20px 23px;
       color: #FAE8B9;
       text-align: center;
