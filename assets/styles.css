@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Typold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Typold Regular'), url('The Northern Block Ltd - Typold Regular.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -214,9 +221,13 @@
       background: #2d3953;
       text-align: center;
       border-radius: 6px;
-      padding: 20px 25px;
+      padding: 10px 15px;
       margin-top: 20px;
       flex: 1;
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
   .projects .proj-content .card .tools {
       margin-top: 20px;
@@ -450,6 +461,7 @@
           width: calc(50% - 10px);
           margin-bottom: 20px;
           flex: none;
+          padding: 10px 20px;
       }
       .contact .contact-content .column,
       .education .edu-content .column {
@@ -571,23 +583,6 @@
     transform: translate3d(0px, 0px, 0px);
 }
 
-/* .slideanim-up {
-    transform: translateY(500px);
-}
-.scrolled-up {
-    transform: translateY(0px);
-    animation: slide-in-up 1.3s;
-}
 
-@keyframes slide-in-up {
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 
 
