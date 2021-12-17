@@ -27,7 +27,7 @@
     z-index: 999;
     font-family: Poppins, sans-serif;
     transition: all 0.3s ease;
-    text-transform: uppercase;
+    text-transform: lowercase;
   }
   
   .navbar.sticky {
@@ -136,7 +136,7 @@
       margin-bottom: 60px;
       padding-bottom: 20px;
       font-family: Poppins, sans-serif;
-      text-transform: uppercase;
+      text-transform: lowercase;
   }
   
   .about .about-content,
@@ -200,7 +200,6 @@
         gap: 20px;
   }
   .about .about-content .bot-socials svg:hover {
-      fill:#8b8291;
       transform: translateY(-5px);
       transition: all 0.3s ease; 
   }
